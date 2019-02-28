@@ -1,0 +1,197 @@
+body{
+  color:#333;
+  background-color:#f2f2f2;
+}
+
+.header{
+  width:100%;
+  background-color:#fff;
+  padding:15px 0;
+  position:fixed;
+  z-index:1;
+}
+.inner{
+  font-size:0;
+  width:1100px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.fa-bolt{
+  font-size:40px;
+  content:"";
+  float:left;
+}
+
+.btn{
+  background-color:#74cfae;
+  border:none;
+  cursor:pointer;
+  color:#fff;
+  display:inline-block;
+  font-size:12px;
+}
+
+.contact-btn{
+  float:right;
+  padding:14px 12px;
+  transition:all .3s;
+}
+
+.btn:hover{
+  color:#333;
+}
+
+.main-title{
+  width:100%;
+}
+
+.theme{
+  color:#74cfae;
+  font-size:90px;
+  font-weight:700;
+  padding:250px 0;
+}
+
+.sub-theme{
+  color:#c0c0c0;  
+  font-size:30px;
+  padding-top:20px;
+}
+
+.utility{
+  background-color:#74cfae;
+  padding-top:50px;
+}
+
+.u-inner{
+  display:flex;
+}
+
+.u-content{
+  text-align:center;
+}
+
+.u-box{
+  color:#fff;
+  margin-left:100px;
+  vertical-align: middle;
+}
+
+.title{
+  font-size:24px;
+}
+
+.u-title{
+  margin-bottom:35px;
+}
+
+.content-text{
+  box-sizing:border-box;
+  font-size:20px;
+  line-height:28px;
+}
+.w-inner{
+  color:#333;
+  padding:60px 0 70px 0;
+}
+
+.w-content{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin:40px 0 90px 0;
+}
+
+.w-img-box{
+  margin:0 100px 80px 0;
+  transition:all 0.3;
+}
+
+.w-img-box:nth-child(3n){
+  margin-right:0;
+}
+
+.w-img-box:nth-child(n+4){
+  margin-bottom:0;
+}
+
+.w-img{
+  opacity:0.7;
+}
+
+.w-img:hover{
+  opacity:1;
+}
+
+.w-bottom{
+  align-items:start;
+  display:flex;
+  margin:0 90px;
+}
+
+.w-content-text{
+  margin-right:90px;
+}
+
+.email-btn{
+  padding:14px 20px;
+  white-space:nowrap;
+}
+
+.our-skills{
+  background-color:#4e4e4e;
+  padding:70px 0 100px 0;
+  color:#fff;
+}
+
+.s-title{
+  margin-bottom:70px;
+}
+
+.s-img-box{
+  display:inline-block;
+  margin-right:180px;
+}
+
+.s-img-box:last-child{
+  margin-right:0;
+}
+
+.s-img-text{
+  font-size:16px;
+  margin-top:20px;
+}
+
+.sns-inner{
+  color:#74cfae;
+  padding:200px 0;
+  font-size:50px;
+}
+
+.sns-icon{
+  cursor:pointer;
+  display:inline-block;
+  padding:30px 0;
+  width:185px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.sns-icon:hover{
+  background-color:#fff;
+}
+
+.footer{
+  background-color:#74cfae;
+}
+
+.footer-inner{
+  padding:20px 0 25px 0;
+  text-align:right;
+}
+
+.footer-text{
+  color:#fff;
+  font-size:16px;
+}
