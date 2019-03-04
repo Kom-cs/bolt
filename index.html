@@ -11,16 +11,25 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-    <header class="header">
+    <header class="header clearfix">
       <div class="inner header-inner">
         <div class="header-icon">
           <i class="fas fa-bolt"></i>
         </div>
         <nav class="header-nav">
-          <a class=" btn contact-btn">Contact</a>
+          <a class=" btn contact-btn" href="">Contact</a>
+        </nav>
+        <nav class="menu-icon">
+          <input class="menu-input" type="checkbox">
+          <label class="menu-open" for="menu-input">
+            <span class="menu-span"></span>
+            <span class="menu-span"></span>
+            <span class="menu-span"></span>
+          </label>
         </nav>
       </div>
     </header>
@@ -35,10 +44,10 @@
       <section class="utility">
         <div class="inner u-inner">
           <div class="u-content">
-            <img class="iphone" src="img/iphone.png" alt="#">
+            <img class="iphone" src="img/iphone.png">
           </div>
           <div class="u-content">            
-            <div class="u-box">
+            <div class="u-text-box">
               <h2 class="title u-title">WHAT WE CAN DO?</h2>
               <p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
@@ -71,7 +80,7 @@
             </div>
             <div class="w-bottom">
               <p class="content-text w-content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-              <a class="btn email-btn">Email Me!</a>
+              <a class="btn email-btn" href="">Email Me!</a>
             </div>
           </figure>
         </div>
@@ -81,7 +90,7 @@
           <div class="">
             <h2 class="title s-title">OUR SKILLS</h2>
           </div>
-          <figure class="s-img-wrapper">
+          <figure class="s-content">
           <div class="s-img-box">
             <img src="img/circle_01.png" alt="">
             <p class="s-img-text">JavaScript</p>

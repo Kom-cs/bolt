@@ -4,12 +4,13 @@ body{
 }
 
 .header{
-  width:100%;
   background-color:#fff;
   padding:15px 0;
   position:fixed;
+  width:100%;
   z-index:1;
 }
+
 .inner{
   font-size:0;
   width:1100px;
@@ -26,9 +27,8 @@ body{
 .btn{
   background-color:#74cfae;
   border:none;
-  cursor:pointer;
   color:#fff;
-  display:inline-block;
+  cursor:pointer;
   font-size:12px;
 }
 
@@ -42,8 +42,15 @@ body{
   color:#333;
 }
 
+.clearfix:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+
 .main-title{
   width:100%;
+  padding-top:70px;
 }
 
 .theme{
@@ -67,14 +74,13 @@ body{
 .u-inner{
   display:flex;
 }
-
 .u-content{
   text-align:center;
 }
 
-.u-box{
+.u-text-box{
   color:#fff;
-  margin-left:100px;
+  padding:0 50px;
   vertical-align: middle;
 }
 
@@ -91,6 +97,7 @@ body{
   font-size:20px;
   line-height:28px;
 }
+
 .w-inner{
   color:#333;
   padding:60px 0 70px 0;
@@ -173,8 +180,8 @@ body{
   cursor:pointer;
   display:inline-block;
   padding:30px 0;
-  width:185px;
   text-align:center;
+  width:185px;
   vertical-align:middle;
 }
 
