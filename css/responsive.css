@@ -1,4 +1,5 @@
 @media (max-width: 1199px){
+  
   .inner{
     width:97%;
   }
@@ -32,7 +33,7 @@
   }
 
   .w-content-text{
-    margin-right:0;
+    margin:0 auto;
   }
 
   .email-btn{
@@ -62,20 +63,21 @@
   
   .header-nav{
     display:none;
+    width:100%;
   }
     
-  .menu-icon{
+  .menu-input{
+    display:none;
+  }
+
+  
+  .menu-open{
     border:solid 1px #ddd;
     border-radius: 4px;
-    content:"";
     cursor:pointer;
     display:block;
     float:right;
     padding:10px;
-  }
-  
-  .menu-input{
-    display:none;
   }
   
   .menu-span{
@@ -85,9 +87,15 @@
     width:25px;
     margin-top:5px;
   }
-
+  
   .menu-span:first-child{
     margin-top:0px;
+  }
+
+  .ip-contact{
+    display:none;
+    margin-top:20px;
+    width:100%;
   }
 
   .sns-inner{
