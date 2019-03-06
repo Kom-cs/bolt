@@ -50,7 +50,6 @@ body{
 }
 
 .main-title{
-  width:100%;
   padding-top:70px;
 }
 
@@ -69,20 +68,16 @@ body{
 
 .utility{
   background-color:#74cfae;
+  color:#fff;
   padding-top:50px;
 }
 
 .u-inner{
   display:flex;
 }
-.u-content{
-  text-align:center;
-}
 
 .u-text-box{
-  color:#fff;
   padding:0 50px;
-  vertical-align: middle;
 }
 
 .title{
@@ -100,7 +95,6 @@ body{
 }
 
 .w-inner{
-  color:#333;
   padding:60px 0 70px 0;
 }
 
@@ -181,9 +175,7 @@ body{
   cursor:pointer;
   display:inline-block;
   padding:30px 0;
-  text-align:center;
   width:185px;
-  vertical-align:middle;
 }
 
 .sns-icon:hover{
@@ -192,6 +184,7 @@ body{
 
 .footer{
   background-color:#74cfae;
+  color:#fff;
 }
 
 .footer-inner{
@@ -200,6 +193,5 @@ body{
 }
 
 .footer-text{
-  color:#fff;
   font-size:16px;
 }

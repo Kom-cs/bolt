@@ -57,19 +57,13 @@
 }
 
 @media(max-width: 767px ){
-  .theme{
-    padding:160px 0 130px 0;
-  }
-  
   .header-nav{
     display:none;
-    width:100%;
   }
     
   .menu-input{
     display:none;
   }
-
   
   .menu-open{
     border:solid 1px #ddd;
@@ -91,17 +85,29 @@
   .menu-span:first-child{
     margin-top:0px;
   }
-
+  
   .ip-contact{
     display:none;
     margin-top:20px;
     width:100%;
+  }
+  
+  .theme{
+  padding:160px 0 130px 0;
+  }
+
+  .w-content{
+    margin-bottom:0;
+  }
+
+  .w-bottom{
+    margin:0 auto;
   }
 
   .sns-inner{
     padding:50px 15px;
   }
   .sns-icon{
-    width:100%;
+    width:97%;
   }  
 }
