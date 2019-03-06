@@ -1,15 +1,14 @@
 body{
   color:#333;
   background-color:#f2f2f2;
-  font-family:'Lato';
   font-family:'Raleway';
 }
 
 .header{
   background-color:#fff;
-  top:0;
   padding:15px 0;
   position:fixed;
+  top:0;
   width:100%;
   z-index:1;
 }
@@ -43,7 +42,9 @@ body{
   color:#fff;
   cursor:pointer;
   display:inline-block;
+  font-family:'Lato';
   font-size:12px;
+  font-weight:700;
   text-decoration: none;
   transition:all .3s;
 }
@@ -100,6 +101,7 @@ body{
 
 .content-text{
   box-sizing:border-box;
+  font-family:Lato;
   font-size:20px;
   line-height:28px;
 }
@@ -176,6 +178,7 @@ body{
 }
 
 .s-img-text{
+  font-family: "Lato";
   font-size:16px;
 }
 
@@ -200,10 +203,11 @@ body{
 .footer{
   background-color:#74cfae;
   color:#fff;
+  font-family:"Lato";
+  padding:20px 0 25px 0;
 }
 
 .footer-inner{
-  padding:20px 0 25px 0;
   text-align:right;
 }
 
@@ -234,11 +238,15 @@ body{
   }
 
   .w-img-box{
-    margin:0;
+    margin:0 auto;
   }
 
   .w-img-box:nth-child(3n){
-    margin-bottom: 80px;
+    margin:0 auto 80px auto;
+  }
+
+  .w-img-box:last-child{
+    margin-bottom:0;
   }
 
   .w-bottom{
