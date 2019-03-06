@@ -216,12 +216,12 @@ body{
     width:97%;
   }
 
-  .u-inner{
-    flex-direction: column;
+  .utility{
+    padding-bottom:25px;
   }
 
-  .u-text-box{
-    padding-bottom: 25px;
+  .u-inner{
+    flex-direction: column;
   }
 
   .iphone{
@@ -230,6 +230,7 @@ body{
 
   .w-content{
     flex-direction: column;
+    margin-bottom:80px;
   }
 
   .w-img-box{
@@ -245,11 +246,11 @@ body{
   }
 
   .w-content-text{
-    margin:0 auto;
+    margin:0 auto 40px 0;
   }
 
   .email-btn{
-    margin:40px auto 0 auto;
+    margin:0 auto;
   }
 
   .s-img-box{
